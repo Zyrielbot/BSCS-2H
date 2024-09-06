@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zyriel John Paul Babaran</title>
+    </head>
+    <body>
+        <h1> Introduction </h1>
+    </body>
+     <img src="pic.jpg" width="200" height="200" 
+       <br> <h3> CSS Student </h3> 
+       <hr>
+       <h3> About Me </h3>
+       <p>Hello! I'm Zyriel John Paul Babaran and this is my personal website.I'm from Villa De Lipa 2, Sabang, Lipa City Batangas. I'm 18 years old
+         and my birthdate is July 20, 2005. I'm currently studying at KLL (Kolehiyo ng Lungsod ng Lipa) taking Bachelors degree in computer science.
+        I graduated elementary at Marawoy Elementary School (MES) and I graduated high school at Gaudencio B. Lontok (GB) and senior highschool
+        at The Meradian School Incorporated . College life is different from grade school like senior high school and junior high school, I'm still getting used to it.
+        Although I am aware that the route I have chosen is not simple, I am confident that I can conquer all obstacles on my college journey with the support of my friends,
+        classmates, teachers, and most importantly, my parents. </p>
+
+        <ol> 
+            <li> <a href="hobbies" target="_blank">Hobbies</a> </li>
+            <li> <a href="skills" target="_blank">Skills</a> </li>
+            <li> <a href="tools and technology stack.html" target="_blank">Tools and Technology Stack</a> </li>
+      
+        </ol>        
+        <hr>
+
+  <form>
+    <label for="Username" >Username </label> <br>
+    <input type="text" id="Username" /> <br>
+    <br>
+    <label for="Email" >Email </label> <br>
+    <input type="text" id="Email" /> <br>
+    <br> 
+    <label for="Your Messsage" >Your Message </label> <br>
+    <textarea id="Your Message"> </textarea> <br>
+    <br>
+    <label for="Country" >Country  </label> <br>
+    <select id="Country">
+        <option value='Philippines' > Philippines</option>
+        <option value='United States' > United states</option>
+        <option value='China' > China</option>
+    </select> <br> <br>
+
+    <label> Job Type </label> <br>
+    <input type="radio" name="Job Type" value="parttime" id="parttime" />
+    <label for="parttime"> Part Time</label> <br>
+
+    <input type="radio" name="Job Type" value="fulltime" id="fulltime" />
+    <label for="fulltime"> Full  Time</label> <br> <br>
+
+    <button> Submit </button>
+
+  </form>     
+    </html> 
