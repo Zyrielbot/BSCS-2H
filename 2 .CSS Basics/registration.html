@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <h3> Registration Form </h3>
+    <h4> Please fill out this form with the required information </h4>
+
+<form>
+    <label for="Enter Your First Name:" >Enter your first name: </label> <br>
+    <input type="text" required id="Enter Your First Name:" /> <br>
+    <br>
+    <label for="Enter Your Last Name:" >Enter your last name: </label> <br>
+    <input type="text" required id="Enter Your Last Name:" /> <br>
+    <br>
+    <label for="Enter Your Email:" >Enter your Email: </label> <br>
+    <input type="text" required id="Enter Your Email:" /> <br>
+    <br>
+    <label for="Create a New Password:" >Create a New Password: </label> <br>
+    <input type="text" required id="Create a New Password" /> <br>
+    <br> <br> <hr>
+
+   <br> <label> Account Type (required) </label> <br>
+    <input type="radio" required name="Account Type" value="personal" id="personal" />
+    <label for="personal"> Personal</label> <br>
+
+    <input type="radio" name="Account Type" value="Business" id="Business" />
+    <label for="Business"> Business</label> <br> <br> <hr>
+</form>
+
+    <form>
+     <br> <h5> Upload a profile picture </h5>
+     <label for="fileinput"> Choose a file:</label>
+     <input type="file" required id="fileinput" name="fileinput" />
+     <br> <br>
+     <label for="Enter Your Age:" >Enter your Age: </label> <br>
+    <input type="number" required id="Enter Your Age:" /> <br>
+    <br>
+
+    <label for="about" > How did you hear about us? </label> <br>
+    <select id="about">
+        <option value='Friends' > Friends</option>
+        <option value='Family' > Family</option>
+        <option value='others' > others </option>
+    </select> <br> <br>
+
+    <label for="Provide a bio:" > Provide a bio: </label> <br>
+    <textarea id="Provide a bio:"> </textarea> <br> <br>
+
+    <input type="checkbox">I accept the <u>terms and condition</u> <br> <hr>
+
+
+    <button> SUBMIT </button>
+
+</form>
+</body>
+</html>
