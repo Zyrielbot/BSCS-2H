@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    height: 600px;
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+}
+#submit{
+    padding: 12px 30px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:gray;
+}
+.form a{
+    text-decoration: none;
+    color: rgb(46, 91, 168);
+}
+.form a:hover{
+   color: blue;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: whitesmoke;
+}
+.side img{
+    width: 400px;
+    height: 550px;
+}
